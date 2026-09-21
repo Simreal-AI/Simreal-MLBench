@@ -1,0 +1,168 @@
+{
+  "version": "0.5-local-training-60-official-full",
+  "status": "candidate-stage-not-a-released-benchmark",
+  "human_in_loop": false,
+  "task_disclosure": {
+    "policy": "blind-task-v1",
+    "visible_to_agent": [
+      "neutral task objective",
+      "reviewed input data",
+      "data schema",
+      "output contract",
+      "evaluation metric",
+      "compute and time budget"
+    ],
+    "operator_only": [
+      "competition name and source ID",
+      "platform and source URLs",
+      "historical leaderboard",
+      "other runs and model results",
+      "submission account and credentials"
+    ],
+    "agent_run_ids": "opaque_without_source_identity",
+    "external_search": "disabled",
+    "worker_network": "none",
+    "model_endpoint": "controller_only",
+    "description_requirement": "reviewed_source_blind_agent_description",
+    "limitation": "Unmodified data and field names can remain recognizable; blinding does not prove absence of pretraining contamination."
+  },
+  "seeds": [
+    17
+  ],
+  "scoring": {
+    "name": "frozen-percentile-quadratic",
+    "gamma": 2,
+    "tie_policy": "half_credit_after_frozen_decimal_quantization",
+    "submission_feedback": "raw_metric_after_each_evaluation_before_deadline",
+    "final_submissions_per_run": 2,
+    "aggregate_tracks_separately": true,
+    "evaluation_policy": "adaptive-two-submissions-v1",
+    "best_submission": "metric_direction_then_earliest_exact_tie",
+    "score_field": "frozen_per_task_same_for_both_submissions",
+    "evaluation_wait": "counts_toward_unchanged_wall_clock",
+    "invalid_frozen_submission": "consumes_one_slot",
+    "identical_artifact": "reuse_existing_evaluation_without_an_extra_slot",
+    "uncertain_upload": "reconcile_existing_intent_only_no_reupload",
+    "automatic_final": "use_one_remaining_slot_for_latest_trusted_predeadline_snapshot_if_distinct",
+    "retain": "both_artifacts_hashes_scores_statuses_timestamps_and_submission_ids",
+    "allowed_tracks": [
+      "official"
+    ]
+  },
+  "tiers": {
+    "easy": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    },
+    "medium": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    },
+    "hard": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  "data_routing": {
+    "policy": "official_only_full_data",
+    "default_route": "official_full",
+    "training_data": "all_permitted_original_labeled_training_data",
+    "test_data": "permitted_official_inputs_or_platform_hidden_code_rerun",
+    "benchmark_holdout_enabled": false,
+    "agent_validation": "agent_may_split_original_training_data_for_internal_validation",
+    "evaluation": "official_remote",
+    "scored": "retain_verified_official_score_and_matching_test_identity",
+    "confirmed_unavailable": "blocked_official_evaluation_no_offline_fallback",
+    "unverified_or_transient_failure": "full_data_with_official_evaluation_pending",
+    "code_competitions": "hidden_test_inputs_remain_on_platform",
+    "route_frozen_per_benchmark_version": true
+  },
+  "replicates": {
+    "count": 1,
+    "training_seed_values": [
+      17
+    ],
+    "agent_randomness": "uncontrolled_unless_provider_exposes_seed",
+    "automatic_repetition": false
+  },
+  "completion_policy": {
+    "deadline": "stop_further_work_at_deadline",
+    "valid_predeadline_final_artifact": "eligible_for_grading_unless_run_violated_budget_or_other_validity_rules",
+    "no_valid_predeadline_artifact": "zero",
+    "stop_reason": "record_separately_from_grading_status"
+  },
+  "experiment_records": {
+    "language": "English",
+    "required_files": [
+      "EXPERIMENTS.md",
+      "SUMMARY.md"
+    ],
+    "experiment_sections": [
+      "Motivation",
+      "Change",
+      "Validation",
+      "Result",
+      "Next step"
+    ],
+    "final_summary": [
+      "selected approach",
+      "selection rationale",
+      "alternatives tried",
+      "limitations",
+      "best evaluated submission"
+    ],
+    "timing": "maintain_during_original_budget",
+    "purpose": "concise_evidence_based_explanations_not_private_reasoning_transcripts",
+    "subjective_score_bonus": false,
+    "missing_record": "flag_report_completeness_without_fabricating_explanations"
+  },
+  "hardware_comparison": {
+    "mode": "practical_heterogeneous_pool",
+    "strict_same_gpu_per_task_required": false,
+    "gpu_sharing_allowed": true,
+    "record_actual_gpu_and_host_resources": true,
+    "record_concurrent_jobs_and_contention": true,
+    "automatic_score_normalization_by_gpu": false,
+    "reporting": "Report pool policy and per-run hardware; scores include hardware availability and contention. Do not claim a controlled GPU-matched comparison.",
+    "failure_policy": "Record out-of-memory and infrastructure failures under a declared run policy; no silent restart on a stronger card or reset of task deadline."
+  },
+  "competition_count": 60,
+  "scope": "Public protocol view; task budgets and scoring copied from administrator configs/protocol.json."
+}

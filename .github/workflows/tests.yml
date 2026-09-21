@@ -1,0 +1,21 @@
+name: public-package
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[test]'
+      - run: mleb validate configs/catalog.json
+      - run: mleb grade examples/snapshot.json examples/result.json
+      - run: python scripts/verify_report.py
+      - run: python examples/learning_reward.py
+      - run: python -m pytest -q

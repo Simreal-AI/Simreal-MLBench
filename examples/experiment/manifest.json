@@ -1,0 +1,16 @@
+{
+  "experiment_id": "synthetic-experiment-only",
+  "system_id": "synthetic-system-not-a-real-model",
+  "profile_manifest_sha256": "6ff803900733386afe84c42abc14a6b04da3ec78095370bf468874fe4ac98c5b",
+  "protocol_sha256": "5648d526d5c923fd288756e5b5a5accb17e6124faa7f18a1194e80014d34213f",
+  "frozen": true,
+  "closed": true,
+  "expected_task_ids": [
+    "synthetic-easy",
+    "synthetic-medium",
+    "synthetic-hard"
+  ],
+  "seeds": [
+    17
+  ]
+}

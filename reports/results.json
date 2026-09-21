@@ -1,0 +1,62 @@
+{
+  "purpose": "admission_baselines_not_agent_evaluation",
+  "observed_date": "2026-09-15",
+  "release_date": "2026-09-21",
+  "source_sha256": "e0f23339746eff702be2fb84202d4f653bb33abd881609ca7cc59127f9d4f53d",
+  "results": [
+    {
+      "competition_id": "leaf-classification",
+      "evaluation_kind": "local_cpu_admission_baseline_not_agent_result",
+      "test_set_id": "kaggle:leaf-classification:final-private:2017-02-28",
+      "split": "private",
+      "metric": "Multiclass log loss",
+      "direction": "lower",
+      "raw_score": "0.10465",
+      "reference_count": 1595,
+      "beaten": 800,
+      "tied": 1,
+      "better": 794,
+      "percentile": 0.5018808777429468,
+      "quadratic_score": 25.18844154440307,
+      "track": "official",
+      "snapshot_sha256": "bca8bf0767986c0f7691f9364b15dd6f5f85d15bc6be4304268d59feaeb3eac4",
+      "artifact_sha256": "9a4ca7c5c7ab4ff084e0b9ded0f4a6bee72a6b8bba793856873d35a123f4414e"
+    },
+    {
+      "competition_id": "spooky-author-identification",
+      "evaluation_kind": "local_cpu_admission_baseline_not_agent_result",
+      "test_set_id": "kaggle:spooky-author-identification:final-private:2017-12-15",
+      "split": "private",
+      "metric": "Multiclass log loss",
+      "direction": "lower",
+      "raw_score": "0.43122",
+      "reference_count": 1241,
+      "beaten": 583,
+      "tied": 0,
+      "better": 658,
+      "percentile": 0.46978243352135374,
+      "quadratic_score": 22.069553484524512,
+      "track": "official",
+      "snapshot_sha256": "d4d7e2674772af4f8ba16f8589869ca028538651822c2a30e9d5a04adfaf25dd",
+      "artifact_sha256": "2fbaf8c98160066a69a5a5392ae790f9dd578e00da53448643254be7ac94eb6b"
+    },
+    {
+      "competition_id": "bike-sharing-demand",
+      "evaluation_kind": "local_cpu_admission_baseline_not_agent_result",
+      "test_set_id": "kaggle:bike-sharing-demand:final-private:2015-05-29",
+      "split": "private",
+      "metric": "RMSLE",
+      "direction": "lower",
+      "raw_score": "0.42634",
+      "reference_count": 3242,
+      "beaten": 2714,
+      "tied": 2,
+      "better": 526,
+      "percentile": 0.837446020974707,
+      "quadratic_score": 70.13158380463695,
+      "track": "official",
+      "snapshot_sha256": "fbfe81d8314141dcd7d63a3382a834fac088f6d8f2acb4983360ca0b3c9018be",
+      "artifact_sha256": "51bd6a346be1a4f78f748920119f8d3f765c69aa84363ea06fc916be18c05b16"
+    }
+  ]
+}

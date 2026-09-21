@@ -1,0 +1,7 @@
+{
+  "system_id": "synthetic-system-not-a-real-model",
+  "purpose": "local aggregation demonstration only",
+  "model_id": "fictional",
+  "agent": "fictional",
+  "agent_version": "fixture-v1"
+}

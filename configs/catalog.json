@@ -1,0 +1,2384 @@
+[
+  {
+    "id": "bike-sharing-demand",
+    "title": "Bike Sharing Demand",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/bike-sharing-demand",
+    "tier": "easy",
+    "modality": "time_series",
+    "domain": "urban_mobility",
+    "task_type": "count_forecasting",
+    "metric": "RMSLE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/bike-sharing-demand",
+      "https://www.kaggle.com/c/bike-sharing-demand/data/"
+    ],
+    "selection_reason": "Hourly demand, seasonality and temporal feature availability.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "forest-cover-type-prediction",
+    "title": "Forest Cover Type Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/forest-cover-type-prediction",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "ecology_geospatial",
+    "task_type": "multiclass_classification",
+    "metric": "Categorization accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/forest-cover-type-prediction"
+    ],
+    "selection_reason": "Geospatial feature engineering and imbalanced multiclass classification.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "amazon-employee-access-challenge",
+    "title": "Amazon.com - Employee Access Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/amazon-employee-access-challenge",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "enterprise_access_management",
+    "task_type": "binary_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/amazon-employee-access-challenge/overview"
+    ],
+    "selection_reason": "High-cardinality categorical interactions and identity-aware validation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "GiveMeSomeCredit",
+    "title": "Give Me Some Credit",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/GiveMeSomeCredit",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "consumer_credit",
+    "task_type": "binary_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/GiveMeSomeCredit"
+    ],
+    "selection_reason": "Missing values, outliers and rare financial distress outcomes.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "allstate-claims-severity",
+    "title": "Allstate Claims Severity",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/allstate-claims-severity",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "insurance_loss",
+    "task_type": "regression",
+    "metric": "MAE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/allstate-claims-severity"
+    ],
+    "selection_reason": "Heavy-tailed target, loss transformation and categorical regression.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "mercedes-benz-greener-manufacturing",
+    "title": "Mercedes-Benz Greener Manufacturing",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "industrial_manufacturing",
+    "task_type": "regression",
+    "metric": "R squared",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing",
+      "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing/writeups/gmobaz-1st-place-solution"
+    ],
+    "selection_reason": "Feature selection and regularization in noisy small-sample industrial data.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "nomad2018-predict-transparent-conductors",
+    "title": "Nomad2018 Predicting Transparent Conductors",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/nomad2018-predict-transparent-conductors",
+    "tier": "easy",
+    "modality": "tabular_structural",
+    "domain": "materials_science",
+    "task_type": "multioutput_regression",
+    "metric": "Mean columnwise RMSLE (2 targets)",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/nomad2018-predict-transparent-conductors/overview",
+      "https://www.kaggle.com/c/nomad2018-predict-transparent-conductors/data",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/experiments/splits/low.txt"
+    ],
+    "selection_reason": "Scientific feature engineering from composition and optional atomic geometry.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "dont-overfit-ii",
+    "title": "Don't Overfit! II",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/dont-overfit-ii",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "small_sample_statistical_learning",
+    "task_type": "binary_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/dont-overfit-ii",
+      "https://www.kaggle.com/competitions/dont-overfit-ii/rules",
+      "https://www.kaggle.com/competitions/dont-overfit-ii/writeups/feature-blind-4th-place-solution-no-lb-probing"
+    ],
+    "selection_reason": "Tests feature selection and regularization with few examples.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "otto-group-product-classification-challenge",
+    "title": "Otto Group Product Classification Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/otto-group-product-classification-challenge",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "retail_product_catalogue",
+    "task_type": "multiclass_classification",
+    "metric": "Multiclass log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/otto-group-product-classification-challenge"
+    ],
+    "selection_reason": "Multiclass probability calibration using product count features.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "rossmann-store-sales",
+    "title": "Rossmann Store Sales",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/rossmann-store-sales",
+    "tier": "easy",
+    "modality": "time_series",
+    "domain": "retail_pharmacy",
+    "task_type": "panel_forecasting",
+    "metric": "RMSPE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/rossmann-store-sales"
+    ],
+    "selection_reason": "Promotions, store metadata and temporal validation across many stores.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "recruit-restaurant-visitor-forecasting",
+    "title": "Recruit Restaurant Visitor Forecasting",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting",
+    "tier": "easy",
+    "modality": "time_series",
+    "domain": "hospitality_operations",
+    "task_type": "panel_forecasting",
+    "metric": "RMSLE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting",
+      "https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/rules"
+    ],
+    "selection_reason": "Reservations, heterogeneous source joins and holiday demand forecasting.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "walmart-recruiting-trip-type-classification",
+    "title": "Walmart Recruiting: Trip Type Classification",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/walmart-recruiting-trip-type-classification",
+    "tier": "easy",
+    "modality": "tabular_relational",
+    "domain": "retail_customer_behaviour",
+    "task_type": "multiclass_classification",
+    "metric": "Multiclass log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/walmart-recruiting-trip-type-classification"
+    ],
+    "selection_reason": "Transaction-to-visit aggregation and shopping-basket representation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "spooky-author-identification",
+    "title": "Spooky Author Identification",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/spooky-author-identification",
+    "tier": "easy",
+    "modality": "text",
+    "domain": "literature_authorship",
+    "task_type": "multiclass_classification",
+    "metric": "Multiclass log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/spooky-author-identification",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/experiments/splits/low.txt"
+    ],
+    "selection_reason": "Short-text stylistic features, TF-IDF and calibrated author probabilities.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "house-prices-advanced-regression-techniques",
+    "title": "House Prices - Advanced Regression Techniques",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques",
+    "tier": "easy",
+    "modality": "tabular",
+    "domain": "real_estate",
+    "task_type": "regression",
+    "metric": "RMSE on log sale prices",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques",
+      "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data",
+      "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/rules"
+    ],
+    "selection_reason": "CPU tabular regression with missing values, categorical variables, and feature engineering.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "random-acts-of-pizza",
+    "title": "Random Acts of Pizza",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/random-acts-of-pizza",
+    "tier": "easy",
+    "modality": "text_tabular",
+    "domain": "online_community_altruism",
+    "task_type": "binary_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/random-acts-of-pizza",
+      "https://www.kaggle.com/kaggle/random-acts-of-pizza/kernels",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/experiments/splits/low.txt"
+    ],
+    "selection_reason": "Combines request text with user metadata and temporal feature availability.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "whats-cooking",
+    "title": "What's Cooking?",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/whats-cooking",
+    "tier": "easy",
+    "modality": "text",
+    "domain": "food_cuisine",
+    "task_type": "multiclass_classification",
+    "metric": "Categorization accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/whats-cooking",
+      "https://www.kaggle.com/c/whats-cooking/data",
+      "https://www.kaggle.com/datasets/kaggle/recipe-ingredients-dataset",
+      "https://www.kaggle.com/competitions/whats-cooking/overview/evaluation"
+    ],
+    "selection_reason": "Variable-length ingredient sets, text normalization and multiclass learning.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "sentiment-analysis-on-movie-reviews",
+    "title": "Sentiment Analysis on Movie Reviews",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews",
+    "tier": "easy",
+    "modality": "text",
+    "domain": "fine_grained_sentiment",
+    "task_type": "ordinal_multiclass_classification",
+    "metric": "Classification accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews"
+    ],
+    "selection_reason": "Five-class phrase sentiment complements binary full-review sentiment.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "leaf-classification",
+    "title": "Leaf Classification",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/leaf-classification",
+    "tier": "easy",
+    "modality": "image_tabular",
+    "domain": "botany",
+    "task_type": "multiclass_classification",
+    "metric": "Multiclass log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/leaf-classification/overview",
+      "https://raw.githubusercontent.com/openai/mle-bench/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/leaf-classification/description.md",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/experiments/splits/low.txt"
+    ],
+    "selection_reason": "Images with supplied shape, margin and texture descriptors give a credible CPU image task.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "Kannada-MNIST",
+    "title": "Kannada MNIST",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/Kannada-MNIST",
+    "tier": "easy",
+    "modality": "image",
+    "domain": "non_latin_handwriting",
+    "task_type": "multiclass_classification",
+    "metric": "Categorization accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/Kannada-MNIST",
+      "https://github.com/vinayprabhu/Kannada_MNIST",
+      "https://www.kaggle.com/competitions/Kannada-MNIST/writeups/ccchang-5th-place-solution-pseudo-labeling-dig-mni",
+      "https://www.kaggle.com/competitions/Kannada-MNIST/overview/evaluation"
+    ],
+    "selection_reason": "Compact non-Latin digit images provide image diversity and writer/domain shift.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "mlsp-2013-birds",
+    "title": "MLSP 2013 Bird Classification Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/mlsp-2013-birds",
+    "tier": "easy",
+    "modality": "audio_tabular",
+    "domain": "bioacoustics",
+    "task_type": "multilabel_classification",
+    "metric": "ROC AUC over recording-species predictions",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/mlsp-2013-birds",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/mlsp-2013-birds/description.md",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/mlsp-2013-birds/grade.py",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/experiments/splits/low.txt"
+    ],
+    "selection_reason": "Short field recordings and supplied feature path provide an audio CPU baseline.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 6,
+      "gpu": null,
+      "gpu_allocated_hours_cap": 0,
+      "backend": "owned_cpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 16,
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots"
+    }
+  },
+  {
+    "id": "dogs-vs-cats-redux-kernels-edition",
+    "title": "Dogs vs. Cats Redux: Kernels Edition",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition",
+    "tier": "medium",
+    "modality": "image",
+    "domain": "companion animals",
+    "task_type": "binary_image_classification",
+    "metric": "binary log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/dogs-vs-cats-redux-kernels-edition/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Tests probability calibration as well as recognition; compact CNN pilot.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "aptos2019-blindness-detection",
+    "title": "APTOS 2019 Blindness Detection",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/aptos2019-blindness-detection",
+    "tier": "medium",
+    "modality": "image",
+    "domain": "retinal imaging",
+    "task_type": "ordinal_image_classification",
+    "metric": "quadratic weighted kappa",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/aptos2019-blindness-detection",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/aptos2019-blindness-detection/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Ordinal severity adds threshold selection and calibration beyond ordinary classification.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "statoil-iceberg-classifier-challenge",
+    "title": "Statoil/C-CORE Iceberg Classifier Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge",
+    "tier": "medium",
+    "modality": "image",
+    "domain": "radar remote sensing",
+    "task_type": "binary_image_classification",
+    "metric": "binary log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/statoil-iceberg-classifier-challenge/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Non-RGB radar bands plus incidence angle diversify the representation problem.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "tgs-salt-identification-challenge",
+    "title": "TGS Salt Identification Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/tgs-salt-identification-challenge",
+    "tier": "medium",
+    "modality": "image",
+    "domain": "geophysical imaging",
+    "task_type": "binary_semantic_segmentation",
+    "metric": "mean image precision across IoU thresholds 0.50:0.05:0.95",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/tgs-salt-identification-challenge",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/tgs-salt-identification-challenge/description.md",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "101x101 seismic masks are a compact segmentation pilot.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "petfinder-pawpularity-score",
+    "title": "PetFinder.my - Pawpularity Contest",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/petfinder-pawpularity-score",
+    "tier": "medium",
+    "modality": "multimodal",
+    "domain": "animal adoption",
+    "task_type": "image_tabular_regression",
+    "metric": "RMSE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/petfinder-pawpularity-score",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/petfinder-pawpularity-score/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Image plus metadata regression tests modality fusion and noisy continuous targets.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "denoising-dirty-documents",
+    "title": "Denoising Dirty Documents",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/denoising-dirty-documents",
+    "tier": "medium",
+    "modality": "image",
+    "domain": "document restoration",
+    "task_type": "image_to_image_regression",
+    "metric": "RMSE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/denoising-dirty-documents",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/denoising-dirty-documents/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Restoration adds dense pixel regression; compare CPU filtering and a small CNN during calibration.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "jigsaw-toxic-comment-classification-challenge",
+    "title": "Toxic Comment Classification Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge",
+    "tier": "medium",
+    "modality": "text",
+    "domain": "online moderation",
+    "task_type": "multilabel_text_classification",
+    "metric": "mean column-wise ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/jigsaw-toxic-comment-classification-challenge/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Multi-label toxicity tests long-tail labels and calibrated probabilities.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "us-patent-phrase-to-phrase-matching",
+    "title": "U.S. Patent Phrase to Phrase Matching",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching",
+    "tier": "medium",
+    "modality": "text",
+    "domain": "patent terminology",
+    "task_type": "text_pair_similarity_regression",
+    "metric": "Pearson correlation",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/us-patent-phrase-to-phrase-matching/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Technical phrase similarity with patent context adds domain-specific representation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "tweet-sentiment-extraction",
+    "title": "Tweet Sentiment Extraction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/tweet-sentiment-extraction",
+    "tier": "medium",
+    "modality": "text",
+    "domain": "social language",
+    "task_type": "sentiment_span_extraction",
+    "metric": "word-level Jaccard similarity",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/tweet-sentiment-extraction",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/tweet-sentiment-extraction/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Requires output spans and tokenization alignment rather than a class label.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "commonlitreadabilityprize",
+    "title": "CommonLit Readability Prize",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/commonlitreadabilityprize",
+    "tier": "medium",
+    "modality": "text",
+    "domain": "education and literacy",
+    "task_type": "text_regression",
+    "metric": "RMSE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/commonlitreadabilityprize",
+      "https://www.kaggle.com/c/commonlitreadabilityprize",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Compact passage corpus adds regression and validation variance; pretrained text encoder pilot.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "chaii-hindi-and-tamil-question-answering",
+    "title": "chaii - Hindi and Tamil Question Answering",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering",
+    "tier": "medium",
+    "modality": "text",
+    "domain": "multilingual reading comprehension",
+    "task_type": "extractive_question_answering",
+    "metric": "word-level Jaccard similarity",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/chaii-hindi-and-tamil-question-answering/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Hindi and Tamil prevent an English-only NLP suite; compact multilingual QA encoder pilot.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "tensorflow-speech-recognition-challenge",
+    "title": "TensorFlow Speech Recognition Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge",
+    "tier": "medium",
+    "modality": "audio",
+    "domain": "speech interfaces",
+    "task_type": "keyword_classification",
+    "metric": "accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/tensorflow-speech-recognition-challenge/config.yaml",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Short spoken commands add waveform-to-spectrogram preprocessing and silence/unknown handling.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "freesound-audio-tagging",
+    "title": "Freesound General-Purpose Audio Tagging Challenge",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/freesound-audio-tagging",
+    "tier": "medium",
+    "modality": "audio",
+    "domain": "environmental sounds and music",
+    "task_type": "single_label_audio_tagging",
+    "metric": "MAP@3",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/freesound-audio-tagging",
+      "https://www.kaggle.com/c/freesound-audio-tagging/data",
+      "https://dcase.community/challenge2018/task-general-purpose-audio-tagging",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "41 environmental and musical categories plus uncertain training labels diversify audio.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "optiver-trading-at-the-close",
+    "title": "Optiver - Trading at the Close",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/optiver-trading-at-the-close",
+    "tier": "medium",
+    "modality": "tabular_time_series",
+    "domain": "financial_markets",
+    "task_type": "short_horizon_return_regression",
+    "metric": "MAE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/optiver-trading-at-the-close",
+      "https://www.kaggle.com/competitions/optiver-trading-at-the-close/data",
+      "https://www.kaggle.com/competitions/optiver-trading-at-the-close/rules"
+    ],
+    "selection_reason": "Market microstructure forecasting, temporal validation, and causal feature engineering.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "ventilator-pressure-prediction",
+    "title": "Google Brain - Ventilator Pressure Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/ventilator-pressure-prediction",
+    "tier": "medium",
+    "modality": "time_series",
+    "domain": "respiratory mechanics",
+    "task_type": "sequence_regression",
+    "metric": "MAE on inspiratory phase only (u_out=0)",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/ventilator-pressure-prediction",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/ventilator-pressure-prediction/description.md",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Repeated breaths test sequence modeling, physical attributes and group-aware validation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "liverpool-ion-switching",
+    "title": "University of Liverpool - Ion Switching",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/liverpool-ion-switching",
+    "tier": "medium",
+    "modality": "time_series",
+    "domain": "cell electrophysiology",
+    "task_type": "sequence_multiclass_classification",
+    "metric": "macro F1",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/liverpool-ion-switching",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Noisy current traces add drift correction and sequence labeling.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "stanford-covid-vaccine",
+    "title": "OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/stanford-covid-vaccine",
+    "tier": "medium",
+    "modality": "sequence_structure",
+    "domain": "RNA biochemistry",
+    "task_type": "per_position_multioutput_regression",
+    "metric": "MCRMSE over reactivity, deg_Mg_pH10, deg_Mg_50C",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/stanford-covid-vaccine",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/mlebench/competitions/stanford-covid-vaccine/description.md",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "RNA sequences and secondary structure add scientific graph/sequence representations.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "ieee-fraud-detection",
+    "title": "IEEE-CIS Fraud Detection",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/ieee-fraud-detection",
+    "tier": "medium",
+    "modality": "tabular",
+    "domain": "transaction fraud",
+    "task_type": "binary_tabular_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/ieee-fraud-detection",
+      "https://www.kaggle.com/c/ieee-fraud-detection",
+      "https://www.kaggle.com/competitions/ieee-fraud-detection/rules",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Larger relational tables add joins, identity features, missingness and temporal validation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "vsb-power-line-fault-detection",
+    "title": "VSB Power Line Fault Detection",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/vsb-power-line-fault-detection",
+    "tier": "medium",
+    "modality": "time_series",
+    "domain": "electrical grid maintenance",
+    "task_type": "binary_signal_classification",
+    "metric": "Matthews correlation coefficient",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/vsb-power-line-fault-detection",
+      "https://www.kaggle.com/c/vsb-power-line-fault-detection/overview/evaluation",
+      "https://www.kaggle.com/competitions/vsb-power-line-fault-detection/rules",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "High-frequency electrical signals add rare-event detection and feature extraction.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "g2net-gravitational-wave-detection",
+    "title": "G2Net Gravitational Wave Detection",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/g2net-gravitational-wave-detection",
+    "tier": "medium",
+    "modality": "time_series",
+    "domain": "gravitational-wave astronomy",
+    "task_type": "binary_signal_classification",
+    "metric": "ROC AUC",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/g2net-gravitational-wave-detection",
+      "https://raw.githubusercontent.com/openai/mle-bench/main/experiments/splits/split75.txt"
+    ],
+    "selection_reason": "Multi-detector scientific waveforms add whitening and time/frequency representations.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 12,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 4,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 4,
+      "memory_gib_target": 32,
+      "gpu_pool": [
+        "medium-3090-01",
+        "medium-3060ti-01",
+        "medium-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "bms-molecular-translation",
+    "title": "Bristol-Myers Squibb \u2013 Molecular Translation",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/bms-molecular-translation",
+    "tier": "hard",
+    "modality": "image_text",
+    "domain": "chemistry",
+    "task_type": "image_to_sequence",
+    "metric": "Mean Levenshtein distance of InChI strings",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/bms-molecular-translation/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/bms-molecular-translation/description.md"
+    ],
+    "selection_reason": "Adds chemical OCR, structured string validity, and a very large file corpus.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "google-research-identify-contrails-reduce-global-warming",
+    "title": "Google Research - Identify Contrails to Reduce Global Warming",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming",
+    "tier": "hard",
+    "modality": "multispectral_time_series",
+    "domain": "climate_remote_sensing",
+    "task_type": "semantic_segmentation",
+    "metric": "Global Dice coefficient",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/google-research-identify-contrails-reduce-global-warming/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/google-research-identify-contrails-reduce-global-warming/description.md"
+    ],
+    "selection_reason": "Tests remote sensing, temporal context, global metric aggregation and RLE output.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "hms-harmful-brain-activity-classification",
+    "title": "HMS - Harmful Brain Activity Classification",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification",
+    "tier": "hard",
+    "modality": "signal_image",
+    "domain": "neuroscience",
+    "task_type": "soft_label_multiclass_classification",
+    "metric": "KL divergence",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/hms-harmful-brain-activity-classification/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/hms-harmful-brain-activity-classification/description.md"
+    ],
+    "selection_reason": "Adds noisy expert targets, patient grouping, and physiological signals.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "nfl-player-contact-detection",
+    "title": "1st and Future - Player Contact Detection",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/nfl-player-contact-detection",
+    "tier": "hard",
+    "modality": "video_tabular",
+    "domain": "sports",
+    "task_type": "spatiotemporal_event_detection",
+    "metric": "Matthews correlation coefficient",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/nfl-player-contact-detection/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/nfl-player-contact-detection/description.md"
+    ],
+    "selection_reason": "Tests multimodal synchronization and rare events; GPU use remains optional.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "uw-madison-gi-tract-image-segmentation",
+    "title": "UW-Madison GI Tract Image Segmentation",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation",
+    "tier": "hard",
+    "modality": "image_3d",
+    "domain": "medical_imaging",
+    "task_type": "multi_class_segmentation",
+    "metric": "0.4 \u00d7 Dice + 0.6 \u00d7 normalized Hausdorff similarity",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/uw-madison-gi-tract-image-segmentation/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/uw-madison-gi-tract-image-segmentation/description.md"
+    ],
+    "selection_reason": "Adds combined regional-overlap and 3D boundary evaluation.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "sartorius-cell-instance-segmentation",
+    "title": "Sartorius - Cell Instance Segmentation",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation",
+    "tier": "hard",
+    "modality": "image",
+    "domain": "cell_biology",
+    "task_type": "instance_segmentation",
+    "metric": "Mean instance precision over IoU thresholds 0.50:0.05:0.95",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/overview"
+    ],
+    "selection_reason": "Adds touching-object separation and dense microscopic instances.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "optiver-realized-volatility-prediction",
+    "title": "Optiver Realized Volatility Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction",
+    "tier": "hard",
+    "modality": "tabular_time_series",
+    "domain": "equity_market_microstructure",
+    "task_type": "realized_volatility_regression",
+    "metric": "RMSPE",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction",
+      "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/data",
+      "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/rules"
+    ],
+    "selection_reason": "Fine-grained order-book and trade aggregation across stocks and time windows, cross-asset features, relative-error optimization, and hidden-test notebook inference.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "jpx-tokyo-stock-exchange-prediction",
+    "title": "JPX Tokyo Stock Exchange Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction",
+    "tier": "hard",
+    "modality": "tabular_time_series",
+    "domain": "equity_portfolio_ranking",
+    "task_type": "daily_cross_sectional_stock_ranking",
+    "metric": "Sharpe ratio of daily spread returns",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction",
+      "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data",
+      "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/rules"
+    ],
+    "selection_reason": "Daily cross-sectional ranking over approximately 2,000 equities, integration of market and fundamental data, time-aware validation, risk-adjusted portfolio evaluation and stateful inference. Hard is a proposed engineering tier, subject to baseline profiling.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "kuzushiji-recognition",
+    "title": "Kuzushiji Recognition",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/kuzushiji-recognition",
+    "tier": "hard",
+    "modality": "image_text",
+    "domain": "cultural_heritage",
+    "task_type": "detection_and_character_recognition",
+    "metric": "Modified F1 requiring correct character and point inside ground-truth box",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/kuzushiji-recognition/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/kuzushiji-recognition/description.md"
+    ],
+    "selection_reason": "Adds non-Latin historical OCR with localization, rather than plain classification.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "feedback-prize-2021",
+    "title": "Feedback Prize - Evaluating Student Writing",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/feedback-prize-2021",
+    "tier": "hard",
+    "modality": "text",
+    "domain": "education",
+    "task_type": "span_segmentation_and_classification",
+    "metric": "Macro F1 with bidirectional token-overlap matching",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/feedback-prize-2021/overview/description"
+    ],
+    "selection_reason": "Adds discourse spans and structured text output.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "lmsys-chatbot-arena",
+    "title": "LMSYS - Chatbot Arena Human Preference Predictions",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/lmsys-chatbot-arena",
+    "tier": "hard",
+    "modality": "text",
+    "domain": "human_ai_interaction",
+    "task_type": "pairwise_preference_classification",
+    "metric": "Multiclass log loss",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/lmsys-chatbot-arena/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/lmsys-chatbot-arena/description.md"
+    ],
+    "selection_reason": "Adds preference modeling and order-bias robustness.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "AI4Code",
+    "title": "Google AI4Code - Understand Code in Python Notebooks",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/AI4Code",
+    "tier": "hard",
+    "modality": "text_code",
+    "domain": "software",
+    "task_type": "sequence_ranking",
+    "metric": "Global Kendall tau correlation",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/AI4Code/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/AI4Code/description.md"
+    ],
+    "selection_reason": "Adds code understanding and permutation/ranking output.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "birdclef-2024",
+    "title": "BirdCLEF 2024",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/birdclef-2024",
+    "tier": "hard",
+    "modality": "audio",
+    "domain": "ecology",
+    "task_type": "multi_label_soundscape_classification",
+    "metric": "Macro ROC AUC skipping classes with no positive labels",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/c/birdclef-2024"
+    ],
+    "selection_reason": "Adds an India-focused bird corpus and a different metric from earlier bird tasks.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "freesound-audio-tagging-2019",
+    "title": "Freesound Audio Tagging 2019",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/freesound-audio-tagging-2019",
+    "tier": "hard",
+    "modality": "audio",
+    "domain": "environmental_sound",
+    "task_type": "multi_label_classification",
+    "metric": "Label-weighted label-ranking average precision (lwlrap)",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/freesound-audio-tagging-2019/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/freesound-audio-tagging-2019/description.md"
+    ],
+    "selection_reason": "Adds 80 non-speech audio classes and noisy-label learning from scratch.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "asl-signs",
+    "title": "Google - Isolated Sign Language Recognition",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/asl-signs",
+    "tier": "hard",
+    "modality": "landmark_time_series",
+    "domain": "accessibility",
+    "task_type": "gesture_classification",
+    "metric": "Classification accuracy",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/asl-signs/data",
+      "https://www.kaggle.com/competitions/asl-signs/overview/"
+    ],
+    "selection_reason": "Adds sign-language accessibility and an executable model artifact.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "icecube-neutrinos-in-deep-ice",
+    "title": "IceCube - Neutrinos in Deep Ice",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice",
+    "tier": "hard",
+    "modality": "point_cloud_time_series",
+    "domain": "particle_physics",
+    "task_type": "direction_regression",
+    "metric": "Mean angular error",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/icecube-neutrinos-in-deep-ice/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/icecube-neutrinos-in-deep-ice/description.md"
+    ],
+    "selection_reason": "Adds irregular scientific sensor geometry and spherical regression.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "champs-scalar-coupling",
+    "title": "Predicting Molecular Properties",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/champs-scalar-coupling",
+    "tier": "hard",
+    "modality": "graph_3d_tabular",
+    "domain": "chemistry",
+    "task_type": "regression",
+    "metric": "Mean across coupling types of log(MAE), with MAE floor 1e-9",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/champs-scalar-coupling/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/champs-scalar-coupling/description.md"
+    ],
+    "selection_reason": "Adds molecular graphs and grouped relative-error optimization.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "predict-volcanic-eruptions-ingv-oe",
+    "title": "INGV - Volcanic Eruption Prediction",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe",
+    "tier": "hard",
+    "modality": "multichannel_time_series",
+    "domain": "geoscience",
+    "task_type": "time_to_event_regression",
+    "metric": "Mean absolute error",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/predict-volcanic-eruptions-ingv-oe/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/predict-volcanic-eruptions-ingv-oe/description.md"
+    ],
+    "selection_reason": "Adds geophysical forecasting; difficulty is engineering, not compulsory GPU demand.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "h-and-m-personalized-fashion-recommendations",
+    "title": "H&M Personalized Fashion Recommendations",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+    "tier": "hard",
+    "modality": "tabular_image",
+    "domain": "recommendation",
+    "task_type": "top_k_recommendation",
+    "metric": "MAP@12",
+    "metric_direction": "higher",
+    "evidence_urls": [
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/h-and-m-personalized-fashion-recommendations/config.yaml",
+      "https://github.com/openai/mle-bench/blob/507f92e1138bb6e40dac5c6ee7a6758e6424bf97/mlebench/competitions/h-and-m-personalized-fashion-recommendations/description.md"
+    ],
+    "selection_reason": "Adds recommender retrieval/ranking and temporal purchase prediction.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  },
+  {
+    "id": "web-traffic-time-series-forecasting",
+    "title": "Web Traffic Time Series Forecasting",
+    "platform": "kaggle",
+    "url": "https://www.kaggle.com/competitions/web-traffic-time-series-forecasting",
+    "tier": "hard",
+    "modality": "time_series",
+    "domain": "internet",
+    "task_type": "multi_series_forecasting",
+    "metric": "SMAPE with 0 when actual and predicted are both 0",
+    "metric_direction": "lower",
+    "evidence_urls": [
+      "https://www.kaggle.com/competitions/web-traffic-time-series-forecasting"
+    ],
+    "selection_reason": "Adds large-scale multilingual web forecasting and missing-value handling.",
+    "selection_status": "candidate",
+    "data_route": "official_full",
+    "remote_submission_status": "unverified_for_public_release",
+    "admission": {
+      "official": {}
+    },
+    "resource_profile": {
+      "count": 20,
+      "wall_hours": 24,
+      "gpu": null,
+      "gpu_count": 1,
+      "gpu_allocated_hours_cap": 12,
+      "backend": "owned_gpu_worker",
+      "cpu_physical_cores_target": 8,
+      "memory_gib_target": 64,
+      "gpu_pool": [
+        "hard-5090-01",
+        "hard-5090-02",
+        "hard-5080-01"
+      ],
+      "hardware_profile_status": "pending_host_inventory_and_basic_fit_pilots",
+      "gpu_selection": "first_available_pool_device_with_sufficient_resources",
+      "resource_enforcement": "local_worker_not_yet_implemented",
+      "cpu_memory_targets_status": "provisional_pending_installed_host_capacity"
+    }
+  }
+]

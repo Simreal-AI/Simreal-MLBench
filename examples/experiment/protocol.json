@@ -1,0 +1,8 @@
+{
+  "purpose": "synthetic fixture; not a benchmark release",
+  "seeds": [
+    17
+  ],
+  "grading": "100 * percentile ** 2",
+  "tracks": "separate"
+}

@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "purpose": "trusted_source_download_not_worker_input_release",
+  "task_count": 60,
+  "tier_counts": {
+    "easy": 20,
+    "medium": 20,
+    "hard": 20
+  },
+  "tasks": [
+    {
+      "id": "bike-sharing-demand",
+      "title": "Bike Sharing Demand",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/bike-sharing-demand"
+    },
+    {
+      "id": "forest-cover-type-prediction",
+      "title": "Forest Cover Type Prediction",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/forest-cover-type-prediction"
+    },
+    {
+      "id": "amazon-employee-access-challenge",
+      "title": "Amazon.com - Employee Access Challenge",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/amazon-employee-access-challenge"
+    },
+    {
+      "id": "GiveMeSomeCredit",
+      "title": "Give Me Some Credit",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/GiveMeSomeCredit"
+    },
+    {
+      "id": "allstate-claims-severity",
+      "title": "Allstate Claims Severity",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/allstate-claims-severity"
+    },
+    {
+      "id": "mercedes-benz-greener-manufacturing",
+      "title": "Mercedes-Benz Greener Manufacturing",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing"
+    },
+    {
+      "id": "nomad2018-predict-transparent-conductors",
+      "title": "Nomad2018 Predicting Transparent Conductors",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/nomad2018-predict-transparent-conductors"
+    },
+    {
+      "id": "dont-overfit-ii",
+      "title": "Don't Overfit! II",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/dont-overfit-ii"
+    },
+    {
+      "id": "otto-group-product-classification-challenge",
+      "title": "Otto Group Product Classification Challenge",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/otto-group-product-classification-challenge"
+    },
+    {
+      "id": "rossmann-store-sales",
+      "title": "Rossmann Store Sales",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/rossmann-store-sales"
+    },
+    {
+      "id": "recruit-restaurant-visitor-forecasting",
+      "title": "Recruit Restaurant Visitor Forecasting",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting"
+    },
+    {
+      "id": "walmart-recruiting-trip-type-classification",
+      "title": "Walmart Recruiting: Trip Type Classification",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/walmart-recruiting-trip-type-classification"
+    },
+    {
+      "id": "spooky-author-identification",
+      "title": "Spooky Author Identification",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/spooky-author-identification"
+    },
+    {
+      "id": "house-prices-advanced-regression-techniques",
+      "title": "House Prices - Advanced Regression Techniques",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques"
+    },
+    {
+      "id": "random-acts-of-pizza",
+      "title": "Random Acts of Pizza",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/random-acts-of-pizza"
+    },
+    {
+      "id": "whats-cooking",
+      "title": "What's Cooking?",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/whats-cooking"
+    },
+    {
+      "id": "sentiment-analysis-on-movie-reviews",
+      "title": "Sentiment Analysis on Movie Reviews",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews"
+    },
+    {
+      "id": "leaf-classification",
+      "title": "Leaf Classification",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/leaf-classification"
+    },
+    {
+      "id": "Kannada-MNIST",
+      "title": "Kannada MNIST",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/Kannada-MNIST"
+    },
+    {
+      "id": "mlsp-2013-birds",
+      "title": "MLSP 2013 Bird Classification Challenge",
+      "tier": "easy",
+      "url": "https://www.kaggle.com/competitions/mlsp-2013-birds"
+    },
+    {
+      "id": "dogs-vs-cats-redux-kernels-edition",
+      "title": "Dogs vs. Cats Redux: Kernels Edition",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition"
+    },
+    {
+      "id": "aptos2019-blindness-detection",
+      "title": "APTOS 2019 Blindness Detection",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/aptos2019-blindness-detection"
+    },
+    {
+      "id": "statoil-iceberg-classifier-challenge",
+      "title": "Statoil/C-CORE Iceberg Classifier Challenge",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge"
+    },
+    {
+      "id": "tgs-salt-identification-challenge",
+      "title": "TGS Salt Identification Challenge",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/tgs-salt-identification-challenge"
+    },
+    {
+      "id": "petfinder-pawpularity-score",
+      "title": "PetFinder.my - Pawpularity Contest",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/petfinder-pawpularity-score"
+    },
+    {
+      "id": "denoising-dirty-documents",
+      "title": "Denoising Dirty Documents",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/denoising-dirty-documents"
+    },
+    {
+      "id": "jigsaw-toxic-comment-classification-challenge",
+      "title": "Toxic Comment Classification Challenge",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge"
+    },
+    {
+      "id": "us-patent-phrase-to-phrase-matching",
+      "title": "U.S. Patent Phrase to Phrase Matching",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching"
+    },
+    {
+      "id": "tweet-sentiment-extraction",
+      "title": "Tweet Sentiment Extraction",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/tweet-sentiment-extraction"
+    },
+    {
+      "id": "commonlitreadabilityprize",
+      "title": "CommonLit Readability Prize",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/commonlitreadabilityprize"
+    },
+    {
+      "id": "chaii-hindi-and-tamil-question-answering",
+      "title": "chaii - Hindi and Tamil Question Answering",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering"
+    },
+    {
+      "id": "tensorflow-speech-recognition-challenge",
+      "title": "TensorFlow Speech Recognition Challenge",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge"
+    },
+    {
+      "id": "freesound-audio-tagging",
+      "title": "Freesound General-Purpose Audio Tagging Challenge",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/freesound-audio-tagging"
+    },
+    {
+      "id": "optiver-trading-at-the-close",
+      "title": "Optiver - Trading at the Close",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/optiver-trading-at-the-close"
+    },
+    {
+      "id": "ventilator-pressure-prediction",
+      "title": "Google Brain - Ventilator Pressure Prediction",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/ventilator-pressure-prediction"
+    },
+    {
+      "id": "liverpool-ion-switching",
+      "title": "University of Liverpool - Ion Switching",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/liverpool-ion-switching"
+    },
+    {
+      "id": "stanford-covid-vaccine",
+      "title": "OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/stanford-covid-vaccine"
+    },
+    {
+      "id": "ieee-fraud-detection",
+      "title": "IEEE-CIS Fraud Detection",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/ieee-fraud-detection"
+    },
+    {
+      "id": "vsb-power-line-fault-detection",
+      "title": "VSB Power Line Fault Detection",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/vsb-power-line-fault-detection"
+    },
+    {
+      "id": "g2net-gravitational-wave-detection",
+      "title": "G2Net Gravitational Wave Detection",
+      "tier": "medium",
+      "url": "https://www.kaggle.com/competitions/g2net-gravitational-wave-detection"
+    },
+    {
+      "id": "bms-molecular-translation",
+      "title": "Bristol-Myers Squibb \u2013 Molecular Translation",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/bms-molecular-translation"
+    },
+    {
+      "id": "google-research-identify-contrails-reduce-global-warming",
+      "title": "Google Research - Identify Contrails to Reduce Global Warming",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming"
+    },
+    {
+      "id": "hms-harmful-brain-activity-classification",
+      "title": "HMS - Harmful Brain Activity Classification",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification"
+    },
+    {
+      "id": "nfl-player-contact-detection",
+      "title": "1st and Future - Player Contact Detection",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/nfl-player-contact-detection"
+    },
+    {
+      "id": "uw-madison-gi-tract-image-segmentation",
+      "title": "UW-Madison GI Tract Image Segmentation",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation"
+    },
+    {
+      "id": "sartorius-cell-instance-segmentation",
+      "title": "Sartorius - Cell Instance Segmentation",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation"
+    },
+    {
+      "id": "optiver-realized-volatility-prediction",
+      "title": "Optiver Realized Volatility Prediction",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/optiver-realized-volatility-prediction"
+    },
+    {
+      "id": "jpx-tokyo-stock-exchange-prediction",
+      "title": "JPX Tokyo Stock Exchange Prediction",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction"
+    },
+    {
+      "id": "kuzushiji-recognition",
+      "title": "Kuzushiji Recognition",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/kuzushiji-recognition"
+    },
+    {
+      "id": "feedback-prize-2021",
+      "title": "Feedback Prize - Evaluating Student Writing",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/feedback-prize-2021"
+    },
+    {
+      "id": "lmsys-chatbot-arena",
+      "title": "LMSYS - Chatbot Arena Human Preference Predictions",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/lmsys-chatbot-arena"
+    },
+    {
+      "id": "AI4Code",
+      "title": "Google AI4Code - Understand Code in Python Notebooks",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/AI4Code"
+    },
+    {
+      "id": "birdclef-2024",
+      "title": "BirdCLEF 2024",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/birdclef-2024"
+    },
+    {
+      "id": "freesound-audio-tagging-2019",
+      "title": "Freesound Audio Tagging 2019",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/freesound-audio-tagging-2019"
+    },
+    {
+      "id": "asl-signs",
+      "title": "Google - Isolated Sign Language Recognition",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/asl-signs"
+    },
+    {
+      "id": "icecube-neutrinos-in-deep-ice",
+      "title": "IceCube - Neutrinos in Deep Ice",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice"
+    },
+    {
+      "id": "champs-scalar-coupling",
+      "title": "Predicting Molecular Properties",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/champs-scalar-coupling"
+    },
+    {
+      "id": "predict-volcanic-eruptions-ingv-oe",
+      "title": "INGV - Volcanic Eruption Prediction",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe"
+    },
+    {
+      "id": "h-and-m-personalized-fashion-recommendations",
+      "title": "H&M Personalized Fashion Recommendations",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations"
+    },
+    {
+      "id": "web-traffic-time-series-forecasting",
+      "title": "Web Traffic Time Series Forecasting",
+      "tier": "hard",
+      "url": "https://www.kaggle.com/competitions/web-traffic-time-series-forecasting"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "competition_id": "synthetic-easy",
+    "metric": "accuracy",
+    "direction": "higher",
+    "test_set_id": "synthetic-easy-test-v1",
+    "split": "private",
+    "track": "official",
+    "unit": "team",
+    "frozen": true,
+    "complete": true,
+    "final": true,
+    "score_decimals": 5,
+    "frozen_at": "2026-09-15T00:00:00Z",
+    "source_url": "https://example.invalid/synthetic-demo-not-a-real-leaderboard",
+    "rows": [
+      {
+        "id": "fictional-0",
+        "score": 0.1
+      },
+      {
+        "id": "fictional-1",
+        "score": 0.2
+      },
+      {
+        "id": "fictional-2",
+        "score": 0.3
+      },
+      {
+        "id": "fictional-3",
+        "score": 0.4
+      },
+      {
+        "id": "fictional-4",
+        "score": 0.5
+      },
+      {
+        "id": "fictional-5",
+        "score": 0.6
+      },
+      {
+        "id": "fictional-6",
+        "score": 0.7
+      },
+      {
+        "id": "fictional-7",
+        "score": 0.8
+      }
+    ],
+    "sha256": "0e79bee3468c5d263a0e32a6ca32b4e803ae32983703c7c844647b62380e08f7"
+  },
+  {
+    "competition_id": "synthetic-medium",
+    "metric": "accuracy",
+    "direction": "higher",
+    "test_set_id": "synthetic-medium-test-v1",
+    "split": "private",
+    "track": "official",
+    "unit": "team",
+    "frozen": true,
+    "complete": true,
+    "final": true,
+    "score_decimals": 5,
+    "frozen_at": "2026-09-15T00:00:00Z",
+    "source_url": "https://example.invalid/synthetic-demo-not-a-real-leaderboard",
+    "rows": [
+      {
+        "id": "fictional-0",
+        "score": 0.1
+      },
+      {
+        "id": "fictional-1",
+        "score": 0.2
+      },
+      {
+        "id": "fictional-2",
+        "score": 0.3
+      },
+      {
+        "id": "fictional-3",
+        "score": 0.4
+      },
+      {
+        "id": "fictional-4",
+        "score": 0.5
+      },
+      {
+        "id": "fictional-5",
+        "score": 0.6
+      },
+      {
+        "id": "fictional-6",
+        "score": 0.7
+      },
+      {
+        "id": "fictional-7",
+        "score": 0.8
+      }
+    ],
+    "sha256": "0aefb5395efd0cf0fdf85b8e55f275583b86a33132aa3994e5e511c26d65297a"
+  },
+  {
+    "competition_id": "synthetic-hard",
+    "metric": "accuracy",
+    "direction": "higher",
+    "test_set_id": "synthetic-hard-test-v1",
+    "split": "private",
+    "track": "official",
+    "unit": "team",
+    "frozen": true,
+    "complete": true,
+    "final": true,
+    "score_decimals": 5,
+    "frozen_at": "2026-09-15T00:00:00Z",
+    "source_url": "https://example.invalid/synthetic-demo-not-a-real-leaderboard",
+    "rows": [
+      {
+        "id": "fictional-0",
+        "score": 0.1
+      },
+      {
+        "id": "fictional-1",
+        "score": 0.2
+      },
+      {
+        "id": "fictional-2",
+        "score": 0.3
+      },
+      {
+        "id": "fictional-3",
+        "score": 0.4
+      },
+      {
+        "id": "fictional-4",
+        "score": 0.5
+      },
+      {
+        "id": "fictional-5",
+        "score": 0.6
+      },
+      {
+        "id": "fictional-6",
+        "score": 0.7
+      },
+      {
+        "id": "fictional-7",
+        "score": 0.8
+      }
+    ],
+    "sha256": "4211f75a7ba876603cad99406e1d7335ca2ce1946d037e745792b12f234d8be5"
+  }
+]

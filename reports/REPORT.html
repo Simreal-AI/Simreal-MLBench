@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ML Benchmark — Technical Report</title><style>body{max-width:980px;margin:48px auto;padding:0 24px;color:#172331;background:#fafbfc;font:16px/1.7 system-ui,sans-serif}h1{font-size:36px;line-height:1.2}h2{margin-top:38px;color:#164e63}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #d9e1e8;padding:10px;text-align:left}th{background:#e9f2f5}a{color:#15617d}code,pre{background:#edf1f5;padding:2px 5px}pre{overflow:auto;padding:16px}</style><body><h1>ML Benchmark: design and verification report</h1>
+<h2>Scope</h2>
+<p>ML Benchmark is a 60-task collection for autonomous machine learning research: 20 easy, 20 medium, and 20 hard tasks. The task budgets are 6, 12, and 24 hours. Modalities include tabular data, time series, language, images, audio, and structured or multimodal scientific inputs.</p>
+<p>An evaluated system is a model plus its agent implementation, version, configuration, and resource environment. Research includes data analysis, validation, feature engineering, model training, tuning, selection, and submission. The primary evidence is the frozen artifact's official metric, mapped against an identified frozen reference distribution.</p>
+<h2>Evaluation contract</h2>
+<p>Use all permitted original training data; internal validation is chosen by the agent. Allow at most two immutable official submissions under the original deadline. Keep the better result and preserve both attempts. Compute <code>100 × p²</code>, with half credit for tied reference scores. Report tier means, coverage, actual hardware, and failures. See <a href="../SCORING.md">SCORING.md</a>.</p>
+<h2>Available empirical evidence</h2>
+<p>The following records were saved on 2026-09-15. They are <strong>local CPU admission baselines evaluated through official scoring</strong>, not autonomous-agent results or a model leaderboard.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th style="text-align: right;">Official raw score (lower is better)</th>
+<th style="text-align: right;">Reference teams</th>
+<th style="text-align: right;">Task score / 100</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>leaf-classification</td>
+<td style="text-align: right;">0.10465</td>
+<td style="text-align: right;">1,595</td>
+<td style="text-align: right;">25.19</td>
+</tr>
+<tr>
+<td>spooky-author-identification</td>
+<td style="text-align: right;">0.43122</td>
+<td style="text-align: right;">1,241</td>
+<td style="text-align: right;">22.07</td>
+</tr>
+<tr>
+<td>bike-sharing-demand</td>
+<td style="text-align: right;">0.42634</td>
+<td style="text-align: right;">3,242</td>
+<td style="text-align: right;">70.13</td>
+</tr>
+</tbody>
+</table>
+<p>Leaf Classification and Spooky Author Identification use multiclass log loss; Bike Sharing Demand uses RMSLE. The records identify the final private split, reference snapshot hash, and submitted artifact hash. <a href="results.json">results.json</a> preserves these fields and the source artifact hash. <code>python scripts/verify_report.py</code> recomputes the three percentile/score mappings from saved counts; it does not authenticate scores against the live platform or redistribute the complete historical leaderboards.</p>
+<p>No comparative model claim is inferred from these baselines. Other short diagnostic calls in the development workspace are excluded: they are not a closed 60-task experiment, and requested model names alone do not prove upstream model identity.</p>
+<h2>Implemented components</h2>
+<ul>
+<li>Public task catalog, remote client, reference scoring, and experiment aggregation.</li>
+<li>Administrator worker queues, restricted JSON gateway, resource accounting, submission freezing, checkpoint ledger, and local pilot graders.</li>
+<li>CPU/GPU Docker build definitions, download/inventory tools, dashboard, and recovery commands.</li>
+<li>A synthetic runtime self-test spanning file access, CPU training, two frozen evaluations, feedback, and best-result selection.</li>
+</ul>
+<h2>Learning research agents</h2>
+<p>A research session naturally supplies observations, actions, transitions, and an executable outcome. For RLVR, attach trusted metrics from a separate training reward fold to research trajectories and connect them to a trainable policy. For API agents, improve a reusable research kit. For recursive self-improvement, allow agent-code revisions while keeping the verifier and acceptance policy fixed. The complete proposed architecture, setup, data partitions, reward contract, and controls are in <a href="../docs/RL_RLVR_RSI.md">RL/RLVR/RSI</a>.</p>
+<p>These are supported research directions, not completed RL training results. The release does not provide a tested weight trainer or automatic recursive improvement loop.</p>
+<h2>Limits and interpretation</h2>
+<p>Full-suite admission, data-access review, hardware calibration, and complete comparable agent runs remain unfinished. Hardware is heterogeneous and contention must be reported. Source blinding cannot establish absence of contamination. Repeated reward/promotion feedback is training information; it must remain separate from final evaluation. Official scoring availability must be rechecked when launching a campaign.</p>
+<p>Public-package checks are recorded in <code>VALIDATION.json</code>; administrator runtime checks are recorded in the separate administrator package. Historical development checks are not presented as fresh Ubuntu, GPU, SSH, or provider verification.</p></body></html>

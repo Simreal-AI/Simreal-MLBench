@@ -1,0 +1,9 @@
+{
+  "competition_id": "synthetic-demo-only",
+  "metric": "accuracy",
+  "direction": "higher",
+  "test_set_id": "synthetic-test-v1",
+  "split": "private",
+  "track": "official",
+  "raw_score": 0.65
+}

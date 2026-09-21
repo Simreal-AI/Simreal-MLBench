@@ -1,0 +1,75 @@
+{
+  "protocol": "mleb-ssh-v1",
+  "examples": {
+    "ping": {
+      "op": "ping"
+    },
+    "begin": {
+      "op": "begin",
+      "task": "synthetic-linear",
+      "model": "YOUR_MODEL_ID",
+      "effort": "high",
+      "seed": 17
+    },
+    "status": {
+      "op": "status",
+      "run": "RUN_ID"
+    },
+    "task": {
+      "op": "task",
+      "run": "RUN_ID"
+    },
+    "list": {
+      "op": "list",
+      "run": "RUN_ID",
+      "area": "data",
+      "path": ""
+    },
+    "read": {
+      "op": "read",
+      "run": "RUN_ID",
+      "area": "data",
+      "path": "train.csv"
+    },
+    "write": {
+      "op": "write",
+      "run": "RUN_ID",
+      "path": "train.py",
+      "base64": "cHJpbnQoImhlbGxvIikK"
+    },
+    "job": {
+      "op": "job",
+      "run": "RUN_ID",
+      "argv": [
+        "python3",
+        "/work/train.py"
+      ],
+      "seconds": 600,
+      "gpu": false
+    },
+    "job-status": {
+      "op": "job-status",
+      "run": "RUN_ID",
+      "job": "JOB_ID"
+    },
+    "evaluate": {
+      "op": "evaluate",
+      "run": "RUN_ID",
+      "request_id": "0123456789abcdef0123456789abcdef"
+    },
+    "evaluation-status": {
+      "op": "evaluation-status",
+      "run": "RUN_ID"
+    },
+    "finish": {
+      "op": "finish",
+      "run": "RUN_ID"
+    }
+  },
+  "notes": [
+    "Replace RUN_ID and JOB_ID with controller responses.",
+    "Generate a unique evaluation request_id and reuse it only to retry that same request.",
+    "The SSH key must force the restricted controller endpoint.",
+    "begin is operator-managed; expose only an assigned run to an autonomous research agent."
+  ]
+}

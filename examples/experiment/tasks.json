@@ -1,0 +1,23 @@
+[
+  {
+    "id": "synthetic-easy",
+    "tier": "easy",
+    "track": "official",
+    "test_set_id": "synthetic-easy-test-v1",
+    "snapshot_sha256": "0e79bee3468c5d263a0e32a6ca32b4e803ae32983703c7c844647b62380e08f7"
+  },
+  {
+    "id": "synthetic-medium",
+    "tier": "medium",
+    "track": "official",
+    "test_set_id": "synthetic-medium-test-v1",
+    "snapshot_sha256": "0aefb5395efd0cf0fdf85b8e55f275583b86a33132aa3994e5e511c26d65297a"
+  },
+  {
+    "id": "synthetic-hard",
+    "tier": "hard",
+    "track": "official",
+    "test_set_id": "synthetic-hard-test-v1",
+    "snapshot_sha256": "4211f75a7ba876603cad99406e1d7335ca2ce1946d037e745792b12f234d8be5"
+  }
+]

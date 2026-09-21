@@ -1,0 +1,50 @@
+{
+  "competition_id": "synthetic-demo-only",
+  "metric": "accuracy",
+  "direction": "higher",
+  "test_set_id": "synthetic-test-v1",
+  "split": "private",
+  "track": "official",
+  "unit": "team",
+  "frozen": true,
+  "complete": true,
+  "final": true,
+  "score_decimals": 5,
+  "frozen_at": "2026-09-15T00:00:00Z",
+  "source_url": "https://example.invalid/synthetic-demo-not-a-real-leaderboard",
+  "rows": [
+    {
+      "id": "fictional-0",
+      "score": 0.1
+    },
+    {
+      "id": "fictional-1",
+      "score": 0.2
+    },
+    {
+      "id": "fictional-2",
+      "score": 0.3
+    },
+    {
+      "id": "fictional-3",
+      "score": 0.4
+    },
+    {
+      "id": "fictional-4",
+      "score": 0.5
+    },
+    {
+      "id": "fictional-5",
+      "score": 0.6
+    },
+    {
+      "id": "fictional-6",
+      "score": 0.7
+    },
+    {
+      "id": "fictional-7",
+      "score": 0.8
+    }
+  ],
+  "sha256": "5dd8fabe1d910403dcccb9e99231371c0edbaecda0d18c4569954c1a2ab76920"
+}

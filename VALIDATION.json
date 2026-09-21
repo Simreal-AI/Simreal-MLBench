@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-21",
+  "environment": "macOS, Python 3.12",
+  "network_model_calls": 0,
+  "new_official_submissions": 0,
+  "not_verified": [
+    "Fresh Ubuntu installation",
+    "Real Docker isolation in this release run",
+    "GPU execution",
+    "Live SSH endpoint",
+    "Full 60-task admission and model leaderboard",
+    "RL trainer integration and RSI gains"
+  ],
+  "pytest": {
+    "passed": 35,
+    "subtests_passed": 71
+  },
+  "report_rows_verified": 3,
+  "catalog_tasks": 60,
+  "installation": "Public wheel installed into a fresh virtualenv without system site packages and without network access",
+  "smoke": [
+    "scoring example",
+    "closed experiment aggregation",
+    "report verification",
+    "synthetic RLVR reward = 0.25"
+  ],
+  "dependencies": "No runtime third-party dependencies; test runner installed separately."
+}
