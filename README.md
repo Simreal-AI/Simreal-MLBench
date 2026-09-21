@@ -1,6 +1,6 @@
-# ML Benchmark
+# ML Benchmark by Simreal(Simreal.co)
 
-**A verifiable environment for machine learning research agents.**
+**A next gen verifiable environment for machine learning research agents.**
 
 An agent studies a dataset, develops a modeling approach, runs experiments, and submits predictions. ML Benchmark brings together **60 tasks across tabular learning, forecasting, vision, language, audio, multimodal learning, and structured scientific data**.
 
