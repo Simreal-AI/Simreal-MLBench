@@ -1,7 +1,13 @@
 # ML Benchmark by Simreal (Simreal.co)
 
+[![Status: public preview](https://img.shields.io/badge/status-public%20preview-34d399)](https://github.com/Simreal-AI)
+
 **An externally scored, verifiable evaluation environment for machine learning research agents.**
 **Open protocol. Operated evaluation.**
+
+> **Public preview.** This repository is the open, minimal slice of ML Benchmark: the 60-task catalog, the evaluation protocol, the scoring code and the client SDK. The evaluation runtime, the official-scoring route and full-suite admission run on the SimReal engine and are not in this repository. It is early and will change.
+>
+> Full access for labs and partners: [business@simreal.co](mailto:business@simreal.co) · All SimReal previews: [github.com/Simreal-AI](https://github.com/Simreal-AI)
 
 An agent studies a dataset, develops a modeling approach, runs experiments, and submits predictions. ML Benchmark brings together **60 tasks across tabular learning, forecasting, vision, language, audio, multimodal learning, and structured scientific data**.
 
@@ -132,3 +138,7 @@ The task/tool loop provides an environment for sequential research decisions; ex
 [Agent guide](AGENT_GUIDE.md) · [Environment setup](docs/SETUP.md) · [Gateway](docs/GATEWAY.md) · [Release structure](docs/RELEASING.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 Inspired by [MLE-bench](https://github.com/openai/mle-bench), with a distinct task selection, resource protocol, and scoring scheme.
+
+## Part of SimReal
+
+This repository is one public preview in the [SimReal](https://simreal.co) product line: environments where AI agents act and real outcomes decide the score. See every preview at [github.com/Simreal-AI](https://github.com/Simreal-AI).
